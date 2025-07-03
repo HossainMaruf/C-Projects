@@ -14,6 +14,10 @@ typedef struct {
     int cols, rows, row_counter;
 } Console;
 
+typedef struct {
+
+} Product;
+
 /** SCREEN AND ERASING */
 void clearBeforeCursor() { printf("\x1b[1J"); }; // cursor will not move
 void clearAfterCursor() { printf("\x1b[0J"); }; // cursor will not move
